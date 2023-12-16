@@ -23,15 +23,26 @@
 }
 
 .aboutBottom p {
-  width: 1200px;
+  max-width: 900px;
+  margin: 10px 0;
 }
 
 .about .aboutBottom h1 {
   font-weight: 400;
   font-size: 70px;
   color: black;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  transform: translateY(-40px);
+  text-align: center;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about .aboutBottom h1 {
+    font-size: 40px;
+  }
+
+  .aboutBottom p {
+    text-align: justify;
+    line-height: 1.7;
+    margin: 5%;
+  }
 }

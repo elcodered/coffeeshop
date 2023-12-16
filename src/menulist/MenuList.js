@@ -61,3 +61,21 @@ export const MenuList = [
     price: 2.75,
   },
 ];
+
+export const BestSellers = [
+  {
+    name: "Caramel Machiattos",
+    image: CaramelMachiatto,
+    price: 2.75,
+  },
+  {
+    name: "Caffe Mocha",
+    image: CaffeMocha,
+    price: 2.75,
+  },
+  {
+    name: "Iced Americano",
+    image: IcedAmericano,
+    price: 2.75,
+  },
+];

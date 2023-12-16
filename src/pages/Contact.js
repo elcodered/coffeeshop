@@ -10,7 +10,7 @@ function Contact() {
         style={{ backgroundImage: `url(${CoffeeLeft})` }}
       ></div>
       <div className="rightSide">
-        <h1>Contact us</h1>
+        <h1>Liked our coffee? Contact us!</h1>
         <form id="contact-form" method="POST">
           <label htmlFor="name">Full Name</label>
           <input name="name" placeholder="Enter full name..." type="text" />
