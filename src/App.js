@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
+
         <Routes>
           <Route path="/" exact Component={Home} />
           <Route path="/menu" exact Component={Menu} />

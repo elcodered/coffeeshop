@@ -1,0 +1,61 @@
+.discoverCoffee {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.discoverCoffee {
+  width: auto;
+  margin-left: 10px;
+  padding-bottom: 10%;
+}
+
+.discoverCoffee h1 {
+  padding-top: 5%;
+  text-align: right;
+  padding-right: 5%;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  height: 70px;
+  font-weight: 50;
+  color: #735c36;
+}
+
+.discoverCoffee p {
+  justify-content: center;
+  text-align: right;
+  padding-right: 5%;
+  font-size: 25px;
+  font-weight: lighter;
+  color: black;
+}
+
+.discoverCoffee button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #121619;
+  height: 50px;
+  width: 180px;
+  color: white;
+  font-size: 20px;
+}
+
+.ordernow {
+  text-align: right;
+  padding-right: 5%;
+}
+
+.discoverCoffee button:hover {
+  background-color: brown;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
